@@ -1,0 +1,27 @@
+git add.
+git commit -m "nom US"
+git push -u origin main  (la première fois j'envoie moi main sur le repo) 
+
+git add.
+git commit -m "nom US"
+git push 
+
+git checkout -b "feature/test" (creation d'une nouvelle branche)
+git add.
+git commit -m "nom US"
+git push -u origin feature/test (j'envoie ma branche sur le repo)
+
+(gestion sur github des merges en pull request puis
+apres analyse d'un reviewer validation du merge)
+
+git switch main (changement de branche pour revenir sur le main) 
+git pull (recup le merge du main repo en local)
+
+
+git log (historique)
+git status (qu'est ce qui a changé)
+
+
+
+
+
