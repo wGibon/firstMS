@@ -15,11 +15,10 @@ import javax.validation.constraints.Size;
 @Entity
 public class Product {
     @Id
-
     private int id;
     @Size(min = 3, max = 25)
     private String nom;
-   @Min(value=1)
+    @Min(value=1)
     private int prix;
 
     private int prixAchat;

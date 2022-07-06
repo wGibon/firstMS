@@ -1,13 +1,8 @@
-package com.ecommerce.microcommerce;
+package com.pluralsight.bdd;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
 
-@SpringBootTest
-class MicrocommerceApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
+@RunWith(Cucumber.class)
+public class MicrocommerceApplicationTests {
 }
